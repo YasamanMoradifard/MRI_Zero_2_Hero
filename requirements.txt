@@ -1,0 +1,24 @@
+# MRI Zero-to-Hero Repository — Python Dependencies
+
+# === Core (used in every module) ===
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+jupyter>=1.0
+ipykernel>=6.20
+
+# === Modules 1–4: Physics & Reconstruction ===
+scikit-image>=0.21
+nibabel>=5.1               # NIfTI file I/O
+pydicom>=2.4               # DICOM file I/O
+sigpy>=0.1.26              # MRI reconstruction toolbox (used in Modules 4, 5)
+
+# === Modules 5–6: Deep Learning ===
+torch>=2.0                 # PyTorch
+torchvision>=0.15
+monai>=1.3                 # Medical-imaging-specific PyTorch utilities
+
+# === Optional but useful ===
+SimpleITK>=2.3             # Used for advanced preprocessing
+tqdm>=4.65                 # Nice progress bars in notebooks
+seaborn>=0.12              # Prettier matplotlib

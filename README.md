@@ -1,4 +1,4 @@
-# MRI: Zero to Hero 🧲🧠
+# MRI: Zero to Hero 
 
 A complete, hands-on learning path through Magnetic Resonance Imaging — built from the **MRI1** and **Computational MRI (CMRI)** lecture series at **FAU Erlangen-Nürnberg**, extended with bonus material on AI for medical image segmentation and classification.
 
@@ -6,7 +6,7 @@ This repository takes you from the **physics of nuclear spins** all the way to *
 
 ---
 
-## 🎯 Who This Is For
+## Who This Is For
 
 - Students learning MRI physics and reconstruction for the first time
 - Engineers and ML practitioners moving into medical imaging
@@ -17,11 +17,11 @@ This repository takes you from the **physics of nuclear spins** all the way to *
 
 ---
 
-## 🗺️ The Six Modules
+## The Six Modules
 
 The repo is organized as a **progressive learning path**. Each module builds on the previous one — by the end, you'll understand the full pipeline from radiofrequency pulse to AI-assisted diagnosis.
 
-### 📘 Module 1 — MRI Physics Fundamentals
+### Module 1 — MRI Physics Fundamentals
 *How does an MRI machine actually produce a signal?*
 
 The big-picture intro to MRI, the three core principles (precession, excitation, relaxation), the dynamics of magnetization in a static field B₀, RF excitation, signal detection via Faraday induction, and how gradient fields make the signal spatially-dependent.
@@ -30,7 +30,7 @@ The big-picture intro to MRI, the three core principles (precession, excitation,
 
 → [`01_MRI_Physics_Fundamentals/`](./01_MRI_Physics_Fundamentals/)
 
-### 📗 Module 2 — k-Space & Image Formation
+### Module 2 — k-Space & Image Formation
 *From signal to image: the Fourier connection.*
 
 Fourier series and transforms (the math toolkit), how k-space encoding works, why MR images are reconstructed by FFT, Gibbs ringing and other Fourier artifacts, and slice selection. Then we extend into CMRI territory: how k-space is *actually* sampled and how Cartesian reconstruction works in practice.
@@ -39,7 +39,7 @@ Fourier series and transforms (the math toolkit), how k-space encoding works, wh
 
 → [`02_kSpace_and_Image_Formation/`](./02_kSpace_and_Image_Formation/)
 
-### 📙 Module 3 — Contrast & Pulse Sequences
+### Module 3 — Contrast & Pulse Sequences
 *Why does grey matter look different from white matter?*
 
 Longitudinal (T1) relaxation, spin echo vs gradient echo sequences, spoiler gradients, and how sequence parameters (TR, TE, flip angle) shape image contrast. This is what turns physics into *useful diagnostic images*.
@@ -48,7 +48,7 @@ Longitudinal (T1) relaxation, spin echo vs gradient echo sequences, spoiler grad
 
 → [`03_Contrast_and_Sequences/`](./03_Contrast_and_Sequences/)
 
-### 📕 Module 4 — Advanced Reconstruction
+### Module 4 — Advanced Reconstruction
 *Real MRI is faster than the textbook — here's how.*
 
 The reconstruction techniques that make modern MRI clinically practical: partial Fourier imaging, non-Cartesian reconstruction (radial, spiral), parallel imaging in image-space (SENSE) and k-space (GRAPPA), iterative reconstruction, and compressed sensing.
@@ -57,7 +57,7 @@ The reconstruction techniques that make modern MRI clinically practical: partial
 
 → [`04_Advanced_Reconstruction/`](./04_Advanced_Reconstruction/)
 
-### 📔 Module 5 — AI for MR Reconstruction
+### Module 5 — AI for MR Reconstruction
 *Deep learning enters the scanner.*
 
 Machine learning and neural network fundamentals (CMRI's ML refresher), then how deep learning is replacing or augmenting classical reconstruction: unrolled networks, learned priors, and end-to-end image reconstruction from undersampled k-space.
@@ -66,7 +66,7 @@ Machine learning and neural network fundamentals (CMRI's ML refresher), then how
 
 → [`05_AI_for_Reconstruction/`](./05_AI_for_Reconstruction/)
 
-### 🎓 Module 6 — AI for Segmentation & Classification (Bonus Track)
+### Module 6 — AI for Segmentation & Classification (Bonus Track)
 *Beyond reconstruction: AI for diagnosis.*
 
 Going beyond your courses to round out the "MRI hero" curriculum: U-Net architecture for medical segmentation, 3D segmentation with MONAI, brain tumor segmentation (BraTS), CNNs and transfer learning for disease classification, handling 3D volumes, and explainability with Grad-CAM.
@@ -151,7 +151,7 @@ All datasets are **publicly available** and free for educational use. Download i
 
 ---
 
-## 📅 Study Plan
+## Study Plan
 
 This repo is designed to be worked through at **~1 hour/day**: read one lecture summary, run its notebook, do the self-test questions. At that pace, the full course takes about **6 weeks**.
 
@@ -217,19 +217,19 @@ For deeper dives beyond the lectures:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 This is a personal learning resource, but corrections and improvements are very welcome. Open an issue or PR.
 
 ---
 
-## 📜 License
+## License
 
 MIT License — feel free to use this material for learning, teaching, or building on top of.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 Built from the **MRI1** and **Computational MRI** lecture series at **Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)**. Deep gratitude to the instructors and to the open-source medical imaging community — MONAI, sigpy, fastMRI, BraTS organizers — for making world-class tools and data freely available.
 

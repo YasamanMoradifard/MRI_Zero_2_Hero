@@ -9,11 +9,11 @@ This module covers how a 1D time-domain MR signal becomes a 2D/3D image via the 
 
 | Day | Lecture | File | Status |
 |-----|---------|------|--------|
-| 11 | MRI1 L09 — Fourier Series & Transforms | `L09_*` | ⬜ |
+| 11 | MRI1 L09 — Fourier Series & Transforms | `L09_*` | ✅ |
 | 12 | **MRI1 L10 — k-Space Encoding, Resolution, Gibbs & Aliasing** | **`L10_*`** | ✅ |
-| 13 | MRI1 L11 — Gibbs Ringing & Slice Selection | `L11_*` | ⬜ |
-| 14 | CMRI L02 — Fourier Image Reconstruction Basics | `C02_*` | ⬜ |
-| 16 | CMRI L03 — Partial Fourier Imaging | `C03_*` | ⬜ |
+| 13 | MRI1 L11 — Gibbs Ringing & Slice Selection | `L11_*` | ✅ |
+| 14 | CMRI L02 — Fourier Image Reconstruction Basics | `C02_*` | ✅ |
+| 16 | CMRI L03 — Partial Fourier Imaging | `C03_*` | ✅ |
 
 ## What's in each file
 
@@ -40,4 +40,3 @@ By Day 17 you should be able to:
 - Reconstruct an image from partially-acquired k-space (zero-fill + POCS)
 - Explain why the read direction never aliases
 
-Onwards 🧲

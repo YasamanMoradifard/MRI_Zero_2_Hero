@@ -53,7 +53,7 @@ Longitudinal (T1) relaxation, spin echo vs gradient echo sequences, spoiler grad
 
 The reconstruction techniques that make modern MRI clinically practical: partial Fourier imaging, non-Cartesian reconstruction (radial, spiral), parallel imaging in image-space (SENSE) and k-space (GRAPPA), iterative reconstruction, and compressed sensing.
 
-**Source:** CMRI lectures 4–9
+**Source:** CMRI lectures 4–8
 
 → [`04_Advanced_Reconstruction/`](./04_Advanced_Reconstruction/)
 
@@ -62,7 +62,7 @@ The reconstruction techniques that make modern MRI clinically practical: partial
 
 Machine learning and neural network fundamentals (CMRI's ML refresher), then how deep learning is replacing or augmenting classical reconstruction: unrolled networks, learned priors, and end-to-end image reconstruction from undersampled k-space.
 
-**Source:** CMRI lectures 10–11
+**Source:** CMRI lectures 9-10
 
 → [`05_AI_for_Reconstruction/`](./05_AI_for_Reconstruction/)
 
@@ -189,10 +189,9 @@ This repo is designed to be worked through at **~1 hour/day**: read one lecture 
 - [ ] C06 — k-Space Parallel Imaging (GRAPPA)
 - [ ] C07 — Non-Cartesian Parallel Imaging & Iterative Recon
 - [ ] C08 — Compressed Sensing
-- [ ] C09 — Recap / advanced topics
 
 **Module 5 — AI for MR Reconstruction** (2 lectures)
-- [ ] C10 — Intro to ML & Neural Networks
+- [ ] C09 — Intro to ML & Neural Networks
 - [ ] C11 — ML for MR Image Reconstruction
 
 **Module 6 — AI for Segmentation & Classification** (bonus)
@@ -205,7 +204,7 @@ This repo is designed to be worked through at **~1 hour/day**: read one lecture 
 
 ---
 
-## 📚 Recommended Reading
+## Recommended Reading
 
 For deeper dives beyond the lectures:
 
